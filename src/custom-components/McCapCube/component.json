@@ -1,45 +1,12 @@
 {
- "name": "魔方",
+ "name": "图片",
  "icon": "icon-tupian",
  "fields": {
    "cube": {
-     "label": "魔方数据",
+     "label": "图片数据",
      "type": "cube",
      "value": {
-       "model": "custom",
-       "row": 3, 
-       "list": []
-     }
-   },
-   "styles": {
-     "label": "魔方样式",
-     "type": "object",
-     "child": {
-       "pagePadding": {
-         "label": "页面边距",
-         "type": "number",
-         "value": 0
-       },
-       "cmpRadius": {
-         "label": "组件圆角",
-         "type": "number",
-         "value": 0
-       },
-       "imgMargin": {
-         "label": "单项间距",
-         "type": "number",
-         "value": 0
-       },
-       "imgRadius": {
-         "label": "单项圆角",
-         "type": "number",
-         "value": 0
-       },
-       "cmpBackground": {
-         "label": "容器背景",
-         "type": "color",
-         "value": ""
-       }
+       "imgUrl":""
      }
    }
  }

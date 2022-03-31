@@ -79,6 +79,9 @@ export default {
   },
   mounted(){
   },
+  watch:{
+    
+  },
   methods:{
     handleClone(model){
       return {
@@ -89,7 +92,7 @@ export default {
 
     click(item){
       this.comOption = item.component + 'Option'
-      this.itemOption = this.$fields[item.component]
+      this.itemOption = item
     },
 
     cloneDeep(obj) {
